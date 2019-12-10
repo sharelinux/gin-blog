@@ -97,6 +97,11 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
     - /auth 提交用户名和密码, 获取token.
     - 在请求URL上需要添加token字段
 
+3. 增加一个简单的文件日志
+    
+    - 为routers/api/auth.go 使用自定义logger写日志. 
+
+
 #### 参考链接
 
 - [go-gin-example](https://github.com/eddycjy/go-gin-example)

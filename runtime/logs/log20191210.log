@@ -1,0 +1,2 @@
+[INFO][auth.go:55]2019/12/10 15:03:57 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzIyMzcsImlzcyI6Imdpbi1ibG9nIn0.vUFPDWzrTG9_KG7JCF5hhDHBp3ycbEvkKOvVgPVvhm8]]
+[INFO][auth.go:55]2019/12/10 15:04:03 [code: 20003 msg: Token生成失败 data: map[]]
