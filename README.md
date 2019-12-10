@@ -103,9 +103,16 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
 
 4. 使用endless优雅的重启服务
 
+5. 使用Swagger为Gin REST Api生成文档
+
+    - 文档地址: `http://127.0.0.1:8000/swagger/index.html`
+
 
 #### 参考链接
 
 - [go-gin-example](https://github.com/eddycjy/go-gin-example)
 - [gin-docs](https://gin-gonic.com/docs/)
 - [gin-core](https://github.com/gin-gonic/gin)
+- [gin-swagger](https://github.com/swaggo/gin-swagger)
+- [swag](https://github.com/swaggo/swag)
+- [swagger](https://swagger.io/specification/)

@@ -1,11 +1,14 @@
 package routers
 
 import (
-	"gin-blog/middleware/jwt"
-	"gin-blog/routers/api"
 	"github.com/gin-gonic/gin"
+	ginSwagger "github.com/swaggo/gin-swagger"
+	"github.com/swaggo/gin-swagger/swaggerFiles"
 
+	_ "gin-blog/docs"
+	"gin-blog/middleware/jwt"
 	"gin-blog/pkg/setting"
+	"gin-blog/routers/api"
 	"gin-blog/routers/api/v1"
 )
 
@@ -20,6 +23,9 @@ func InitRouter() *gin.Engine {
 
 	// 获取Token方法
 	r.GET("/auth", api.GetAuth)
+
+	// 添加swagger文档
+	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	apiv1 := r.Group("api/v1")
 	apiv1.Use(jwt.JWT()) // 增加jwt中间件
