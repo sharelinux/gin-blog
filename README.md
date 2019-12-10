@@ -92,7 +92,10 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
 #### 项目功能列表
 
 1. 基于gin REST API 实现tag、article的增删改查功能.
-
+2. 使用JWT进行Gin REST API身份鉴权.
+    
+    - /auth 提交用户名和密码, 获取token.
+    - 在请求URL上需要添加token字段
 
 #### 参考链接
 
