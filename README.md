@@ -101,6 +101,8 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
     
     - 为routers/api/auth.go 使用自定义logger写日志. 
 
+4. 使用endless优雅的重启服务
+
 
 #### 参考链接
 

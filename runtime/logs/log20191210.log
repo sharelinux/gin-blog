@@ -1,2 +1,8 @@
 [INFO][auth.go:55]2019/12/10 15:03:57 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzIyMzcsImlzcyI6Imdpbi1ibG9nIn0.vUFPDWzrTG9_KG7JCF5hhDHBp3ycbEvkKOvVgPVvhm8]]
 [INFO][auth.go:55]2019/12/10 15:04:03 [code: 20003 msg: Token生成失败 data: map[]]
+[INFO][auth.go:55]2019/12/10 15:50:17 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzUwMTcsImlzcyI6Imdpbi1ibG9nIn0.HHk6e1VWY1TmhqrGzby7NN0Bm5rzK9xwtAcOPlx_qAo]]
+[INFO][auth.go:55]2019/12/10 15:50:36 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzUwMzYsImlzcyI6Imdpbi1ibG9nIn0.eu89g76KmtAQx205mwqJlA1ZAq7Q-n-czeXNa_DuQLU]]
+[INFO][auth.go:55]2019/12/10 15:50:52 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzUwNTIsImlzcyI6Imdpbi1ibG9nIn0.cMiw6lpSftoGRJZrMRxTSecIbXAURJui77bAWTHzhBI]]
+[INFO][auth.go:55]2019/12/10 15:50:53 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzUwNTMsImlzcyI6Imdpbi1ibG9nIn0.Hyn8KRI9uqn8qjoXDbcdWahGl-jRI-_V1tVRx5uXa5o]]
+[INFO][auth.go:55]2019/12/10 15:50:54 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzUwNTQsImlzcyI6Imdpbi1ibG9nIn0.clMHNMxu65RsFhtcgMPdjBXkzOZcdMkAIazMal7Llqc]]
+[INFO][auth.go:55]2019/12/10 15:51:05 [code: 20003 msg: Token生成失败 data: map[]]
