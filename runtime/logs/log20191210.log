@@ -6,3 +6,4 @@
 [INFO][auth.go:55]2019/12/10 15:50:53 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzUwNTMsImlzcyI6Imdpbi1ibG9nIn0.Hyn8KRI9uqn8qjoXDbcdWahGl-jRI-_V1tVRx5uXa5o]]
 [INFO][auth.go:55]2019/12/10 15:50:54 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzU5NzUwNTQsImlzcyI6Imdpbi1ibG9nIn0.clMHNMxu65RsFhtcgMPdjBXkzOZcdMkAIazMal7Llqc]]
 [INFO][auth.go:55]2019/12/10 15:51:05 [code: 20003 msg: Token生成失败 data: map[]]
+[INFO][auth.go:55]2019/12/11 10:24:02 [code: 200 msg: ok data: map[token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QxMjM0NTYiLCJleHAiOjE1NzYwNDE4NDIsImlzcyI6Imdpbi1ibG9nIn0.qKk9R7uy6-R8oWdCpxHtIvUpkrdTzdkDc50mkYmTD9c]]

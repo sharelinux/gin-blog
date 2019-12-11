@@ -107,6 +107,10 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
 
     - 文档地址: `http://127.0.0.1:8000/swagger/index.html`
 
+6. 将Golang应用部署到Docker
+
+    - 构建镜像: `docker build -t gin-blog-docker .`
+    - 创建运行为容器: `docker run -d -p8000:8000 gin-blog-docker`
 
 #### 参考链接
 

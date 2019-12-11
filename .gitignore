@@ -26,3 +26,4 @@ var/*.log
 .idea/
 .DS_Store
 main
+gin-blog

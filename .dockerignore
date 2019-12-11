@@ -1,0 +1,12 @@
+.git
+.gitignore
+
+.dockerignore
+
+runtime/logs/*.log
+var/*.log
+
+.DS_Store
+.idea/
+
+gin-blog
