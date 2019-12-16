@@ -17,6 +17,7 @@
 # app logs
 logs/*.log
 var/*.log
+runtime/*/*.log
 
 # but keep the empty folder
 *!.gitkeep

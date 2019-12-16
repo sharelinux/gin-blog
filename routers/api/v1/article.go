@@ -25,7 +25,7 @@ func GetArticle(c *gin.Context) {
 	var data interface{}
 
 	if !valid.HasErrors() {
-		if models.ExistArticleByID(id) {
+		if ok ,_ := models.ExistArticleByID(id); ok {
 			data = models.GetArticle(id)
 			code = e.SUCCESS
 		} else {
@@ -50,6 +50,9 @@ func GetArticles(c *gin.Context) {
 	data := make(map[string]interface{})
 	maps := make(map[string]interface{})
 	valid := validation.Validation{}
+
+	// 添加过滤软删除
+	maps["deleted_on"] = 0
 
 	var state int = -1
 	if arg := c.Query("state"); arg != "" {
@@ -105,7 +108,7 @@ func AddArticle(c *gin.Context) {
 
 	code := e.INVALID_PARAMS
 	if !valid.HasErrors() {
-		if models.ExistTagByID(tagId) {
+		if ok, _ := models.ExistTagByID(tagId); ok {
 			data := make(map[string]interface{})
 			data["tag_id"] = tagId
 			data["title"] = title
@@ -159,8 +162,8 @@ func EditArticle(c *gin.Context) {
 
 	code := e.INVALID_PARAMS
 	if ! valid.HasErrors() {
-		if models.ExistArticleByID(id) {
-			if models.ExistTagByID(tagId) {
+		if ok ,_ := models.ExistArticleByID(id); ok {
+			if ok ,_ := models.ExistTagByID(tagId); ok {
 				data := make(map[string]interface{})
 				if tagId > 0 {
 					data["tag_id"] = tagId
@@ -210,7 +213,7 @@ func DeleteArticle(c *gin.Context) {
 
 	code := e.INVALID_PARAMS
 	if !valid.HasErrors() {
-		if models.ExistArticleByID(id) {
+		if ok, _ := models.ExistArticleByID(id); ok {
 			models.DeleteArticle(id)
 			code = e.SUCCESS
 		} else {

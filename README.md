@@ -112,6 +112,12 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
     - 构建镜像: `docker build -t gin-blog-docker .`
     - 创建运行为容器: `docker run -d -p8000:8000 gin-blog-docker`
 
+7. 定制 GORM Callbacks
+    
+    - 使用GORM Callback替换BeforeCreate、BeforeUpdate
+    - 注册Callbacks将其注册进GORM的钩子中.
+    - 实现项目软删除.
+
 #### 参考链接
 
 - [go-gin-example](https://github.com/eddycjy/go-gin-example)
@@ -120,3 +126,4 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
 - [gin-swagger](https://github.com/swaggo/gin-swagger)
 - [swag](https://github.com/swaggo/swag)
 - [swagger](https://swagger.io/specification/)
+- [gorm](http://gorm.io/docs/write_plugins.html)
