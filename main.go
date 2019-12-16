@@ -9,6 +9,7 @@ import (
 
 	"gin-blog/pkg/setting"
 	"gin-blog/routers"
+	"gin-blog/pkg/clean"
 )
 
 func main() {
@@ -41,6 +42,12 @@ func main() {
 	server.BeforeBegin = func(add string) {
 		log.Printf("Actual pid is %d", syscall.Getpid())
 	}
+
+	// Add cron
+	go func() {
+		fmt.Println("Start clear cron task.")
+		clean.CleanMySQLDeleted()
+	}()
 
 	err := server.ListenAndServe()
 	if err != nil {

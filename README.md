@@ -117,6 +117,10 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
     - 使用GORM Callback替换BeforeCreate、BeforeUpdate
     - 注册Callbacks将其注册进GORM的钩子中.
     - 实现项目软删除.
+    
+8. Cron定时任务
+
+    - 使用Cron清理标记删除的数据.    
 
 #### 参考链接
 
@@ -127,3 +131,4 @@ INSERT INTO `gin_web`.`blog_auth` (`id`, `username`, `password`) VALUES (null, '
 - [swag](https://github.com/swaggo/swag)
 - [swagger](https://swagger.io/specification/)
 - [gorm](http://gorm.io/docs/write_plugins.html)
+- [cron](https://github.com/robfig/cron)

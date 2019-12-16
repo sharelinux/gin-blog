@@ -87,3 +87,11 @@ func GetTagTotal(maps interface{}) (count int) {
 
 	return
 }
+
+
+// 清理标记删除的tag数据
+func CleanAllTag() bool {
+	db.Unscoped().Where("deleted_on != ?", 0).Delete(&Tag{})
+
+	return true
+}
